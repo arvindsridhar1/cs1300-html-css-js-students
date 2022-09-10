@@ -1,7 +1,23 @@
 #cs1300-gallery {
-  background-color: lightblue;
+  background-color: lavender;
 }
 
-.gallery-container {
+.gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  align-items: center;
+}
+
+img{
+  height: 10rem;
+  width: 10rem;
+}
+
+button{
+  background-color: green;
+  color: white;
+  text-align: center;
 }

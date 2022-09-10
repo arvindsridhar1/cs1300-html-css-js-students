@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CS1300 HTML/CSS/JS Studio</title>
-    <!-- import javascript variables and functions -->
-    <script src="app.js"></script>
-    <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
-  </head>
 
-  <!-- page content goes into <body> -->
-  <body>
-    <div id="cs1300-gallery">
-      <h1>Welcome to my bakery</h1>
-      <p>Add your own images and styles!</p>
+<head>
+  <title>CS1300 HTML/CSS/JS Studio</title>
+  <!-- import javascript variables and functions -->
+  <script src="app.js"></script>
+  <!-- import CSS styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-      <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
-      <div class="gallery-item-container">
-        <img class="gallery-item" src="./assets/jeff.jpg" alt="jeff watching u">
-      </div>
+<!-- page content goes into <body> -->
 
-      <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
-      <!-- <button onclick="">Press this button to display some fruit data</button> -->
+<body>
+  <div id="cs1300-gallery">
+    <h1>Arvind's Cinnamon Zone</h1>
+    <p>The greatest collection of cinnamon goodies on the internet</p>
+
+    <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
+    <div class="gallery-item-container">
+      <img class="gallery-item" src="./assets/cinnamonrolls.jpeg" alt="cinnamon rolls">
+      <img class="gallery-item" src="./assets/cinnamonpie.png" alt="cinnamon pie">
+      <img class="gallery-item" src="./assets/cinnamondonut.jpeg" alt="cinnamon donut">
+      <img class="gallery-item" src="./assets/cinnamoncookie.webp" alt="cinnamon cookie">
+      <img class="gallery-item" src="./assets/cinnamonchurro.jpeg" alt="cinnamon churro">
+      <img class="gallery-item" src="./assets/cinnamoncake.jpeg" alt="cinnamon cake">
     </div>
-  </body>
+
+    <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
+    <button onclick="updatePage()">Press this button to learn which fruits have sugar content greater than 15</button>
+  </div>
+</body>
 
 </html>
